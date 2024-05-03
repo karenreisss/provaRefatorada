@@ -1,0 +1,56 @@
+8 - event loop é um mecanismo de execução de código assíncrono, ele permite que o código continue sendo processado 
+enquanto as operações assíncronas estão em andamento. ele faz o monitoramento da pilha de chamadas da função e a fila de 
+eventos, para que seja executado na sequencia correta.
+
+9 -  libuv é uma biblioteca que proporciona uma camada de abstração para operações de I/O assíncronas no node.js,
+assim permite que ele seja multiplataforma. ela gerencia operações de I/O não bloqueantes, como acesso ao sistema de 
+arquivos e outros eventos assíncronos. o libuv é essencial no Node.js que torna ele rápido e eficiente durante as operações.
+    O V8 é responsável por compilar e executar o código de forma mais eficiente, otimizando para ter alto desempenho. como
+por exemplo a compilação just-in-time (JIT), entre outros, que proporciona uma execução rápida e eficiente do código. o V8
+é fundamental para o desempenho e a escalabilidade das plataformas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-V8
+O V8 é um mecanismo de execução de JavaScript de código aberto, desenvolvido pelo Google.
+Ele é escrito em C++ e é utilizado tanto no Google Chrome como no Node.js. 
+O V8 é responsável por compilar e executar o código JavaScript de forma eficiente, otimizando-o para obter alto desempenho. 
+Ele inclui recursos como coleta de lixo (garbage collection), compilação just-in-time (JIT), entre outros, para garantir uma execução rápida e eficiente do código JavaScript. 
+Em resumo, o V8 é o coração do ambiente de execução do JavaScript no Chrome e no Node.js, sendo fundamental para o desempenho e a escalabilidade dessas plataformas.
+
+
+-CONSUMO DE aplicações
+Consumir APIs significa usar solicitações para acessar os recursos e funcionalidades fornecidos por serviços externos, 
+como obter dados de previsão do tempo de uma API de meteorologia para exibição em um aplicativo. 
+É uma maneira de os aplicativos se comunicarem e compartilharem informações entre si de for
+
